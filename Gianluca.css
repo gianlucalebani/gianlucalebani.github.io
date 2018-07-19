@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* main sections ---------------------------------------------------------------- */
+
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 13px;
+	color: #444;
+	background: url(graphics/bg.png);
+}
+
+#layout {
+	width:900px;
+	margin: 20px auto;
+	border: 1px solid #666666;  /* original #DDDDDD*/
+	border-radius: 10px;
+	background: white;
+	box-shadow: 4px 4px 3px #ccc;
+}
+
+#header {
+	height:165px;
+	margin: 0 20px;
+	border-bottom: 1px dotted #666666;  /* original #DDDDDD*/
+	font-family: Garamond, serif;
+	padding: 20px 0;
+}
+
+#main {
+	margin:20px 0;
+	text-align: justify;
+	}
+
+#main p{
+	margin: 10px 0;
+}
+
+#footer {
+	border-top: 1px dotted #666666;  /* original #DDDDDD*/
+	padding:15px 0 20px 0;
+	margin: 0 20px 0 20px;
+}
+
+
+/* text ------------------------------------------------------------------------- */
+
+h1{ /* titles inside the accordion */
+	font-size:120%;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #0F3276;  /* CIMec blue */
+	line-height:200%;
+	margin-bottom:5px;
+	border-bottom-color:#666666;  /* original #DDDDDD*/
+	border-bottom-style:dotted;  /* original solid*/
+	border-bottom-width:1px;
+}
+
+#publications_content h1:first-child{
+	margin-bottom: 20px;
+}
+
+h2{ 
+	font-size:100%;
+	color: #0F3276;  /* CIMec blue */
+	margin-top: 10px;
+	margin-bottom:5px;
+}
+
+h3{ 
+	font-size:100%;
+	margin-bottom:5px;
+}
+
+a{
+	color: #0F3276;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.right{
+	float:right;
+	display:inline;
+	font-size:85%;
+}
+
+
+/* header ----------------------------------------------------------------------- */
+
+#main_data{
+	float:left;
+	width:474px;
+	height:99%;
+}
+
+#name{
+	font-size:32px;
+	color: #0F3276;  /* CIMec blue */
+	line-height:220%;
+}
+
+#cur_position{
+	font-size:24px;
+	line-height:175%;
+}
+
+p.affiliation{
+	font-size:18px;
+	line-height:150%;
+}
+
+#profile_pic{
+	float:right;
+	height: 165px;
+	width:220px; 
+	overflow:hidden;
+	margin
+/* 	border-radius: 10px;
+	-moz-border-radius: 10px; */
+}
+
+#profile_pic img{
+	max-height:100%;
+}
+
+/* main -------------------------------------------------------------------- */
+
+div#content{
+	width: 658px;
+	float:left;
+	display:block;
+}
+
+#content div{
+	padding: 0 20px 20px 20px;
+	display: none;
+}
+
+#content div#about_me_content{
+	display: block;
+}
+
+div#contacts_content{
+	padding: 0;
+}
+
+div.contact{
+	text-align:right;
+	display: block !important;
+}
+
+div#menu{
+	width: 220px;
+	margin-right:20px;
+	margin-bottom:20px;
+	height: 360px;  /* 4 tabs: 360px >> 5 tabs: 394px >> 6 tabs: 428px */
+	display: block; 
+	float: right;
+ 	background: #C3CCF1;
+}
+
+
+/* research ----------------------------------------------------------------- */
+
+#research_content li{
+	margin: 0 0 5px 20px;
+}
+
+
+/* publications ----------------------------------------------------------------- */
+
+div.biblatex{
+	color: #333;
+	font-weight: bold;
+	text-align:right;
+}
+
+li.pub{
+	margin:15px 0;
+	list-style: none;
+}
+
+li.pub b{
+	color: #333;
+}
+
+li.pub a img{
+	border: 0px solid;
+	height: 18px;
+	margin-left:3px;
+}
+
+
+/* accordion -------------------------------------------------------------------- */
+
+ul.acc{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+ul.acc li.acc div.acc_sect{
+	display: block;
+	overflow: hidden;
+	height: 34px;
+}
+
+div#about_me{
+	height: 260px;  /* same as maxHeight in utility.js*/
+}
+
+ul.acc li.acc img.trig{
+	position: absolute;
+	cursor:pointer;
+}
+
+div.acc_sect div.img{
+	margin: 70px 10px 10px 10px;
+	text-align: center;
+	padding: 0;
+	display: block;
+	overflow:auto;
+}
+
+div.img img{
+	width: 150px;
+}
+
+
+/* footer ----------------------------------------------------------------------- */
+
+div#update{
+	width:49%;
+	float:right;
+	text-align:right;
+}
+
+div#statcounter {
+	width:50%;
+	float:left;
+}
