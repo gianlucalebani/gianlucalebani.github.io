@@ -31,7 +31,7 @@ $(document).ready(function(){
 
 $.fn.randomPic = function(images_folder) {
 	
-	var images = ['pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'pic4.jpg', 'pic5.jpg'];  // add pic filenames here
+	var images = ['pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'pic4.jpg', 'pic5.jpg', 'pic6.jpg'];  // add pic filenames here
 		
 	$(this).attr('src',images_folder + images[Math.floor(Math.random() * images.length)])
 

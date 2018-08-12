@@ -159,7 +159,7 @@ div#menu{
 	width: 220px;
 	margin-right:20px;
 	margin-bottom:20px;
-	height: 360px;  /* 4 tabs: 360px >> 5 tabs: 394px >> 6 tabs: 428px */
+	height: 394px;  /* 4 tabs: 360px >> 5 tabs: 394px >> 6 tabs: 428px */
 	display: block; 
 	float: right;
  	background: #C3CCF1;
