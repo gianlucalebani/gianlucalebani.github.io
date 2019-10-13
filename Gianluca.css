@@ -239,13 +239,13 @@ div.img img{
 
 /* footer ----------------------------------------------------------------------- */
 
-div#update{
+div#statcounter{
 	width:49%;
 	float:right;
 	text-align:right;
 }
 
-div#statcounter {
+div#update{
 	width:50%;
 	float:left;
 }
